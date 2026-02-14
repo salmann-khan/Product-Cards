@@ -40,6 +40,7 @@ body{
 
 .container .card{
     position: relative;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +67,7 @@ body{
     top: 0;
     left: 0;
     background: white;
-    clip-path: circle(35% at 0% 100%);
+    clip-path: circle(35% at 100% 0%);
 }
 .container .card::after{
     content: "";
@@ -75,8 +76,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    
-    clip-path: circle(30% at 100% 0%);
+    clip-path: circle(30% at 0% 100%);
 }
 
 .container .card:nth-child(1)::before{
@@ -86,10 +86,10 @@ body{
     background: rgba(114, 48, 17, 0.767);
 }
 .container .card:nth-child(2)::before{
-    background: rgb(92, 92, 92);
+    background: rgb(176, 173, 173);
 }
 .container .card:nth-child(2)::after{
-    background: rgb(92, 92, 92);
+    background: rgb(176, 173, 173);
 }
 .container .card:nth-child(3)::before{
     background: rgb(243, 196, 136);
