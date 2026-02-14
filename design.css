@@ -66,8 +66,8 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background: white;
-    clip-path: circle(35% at 100% 0%);
+    background: rgb(14, 13, 13);
+    clip-path: circle(36% at 100% 0%);
 }
 .container .card::after{
     content: "";
@@ -76,7 +76,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    clip-path: circle(30% at 0% 100%);
+    clip-path: circle(25% at 0% 100%);
 }
 
 .container .card:nth-child(1)::before{
